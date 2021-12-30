@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "start_pages",
+  "info": {
+    "singularName": "start-page",
+    "pluralName": "start-pages",
+    "displayName": "Start Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Body": {
+      "type": "richtext"
+    },
+    "Banner": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
